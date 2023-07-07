@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.task-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-container li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.task-container button {
+  background-color: #f1c40f;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-left: 3px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-container input[type="checkbox"] {
+  -webkit-appearance: none;
+  /* 기본 스타일링 제거 */
+  -moz-appearance: none;
+  appearance: none;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.task-container input[type="checkbox"]:checked {
+  border-color: #27ae60;
+  background-color: #27ae60;
+}
+
+.text-through {
+  color: gray;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=task-container.css.map */

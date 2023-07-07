@@ -1,0 +1,30 @@
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 11px;
+    height: 2rem;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    border: 1px solid white;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+    background-color: #eee;
+    border-radius: 11px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+#count-bar::-webkit-progress-value {
+    background-color: #27ae60;
+    border-radius: 11px;
+    transition: all 0.2s ease-out;
+}
+
+#complete-count-bar::-webkit-progress-value {
+    background-color: #8e44ad;
+    border-radius: 11px;
+    transition: all 0.2s ease-out;
+}
